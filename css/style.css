@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.conterainer{
+    width: 1170px;
+    margin: auto;
+}
+.clear-float{
+    clear: both;
+}
+.header .conterainer{
+    overflow: hidden;
+}
+.top-header{
+    background-color: black;
+    overflow: hidden;
+}
+.top-header .left{
+    color: white;
+    width: 80%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.top-header .right{
+    width: 30;
+    float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.top-header .right img{
+    height: 50px;
+}
+.top-header .right button{
+    background-color:rgba(174, 98, 27, 0.684) ;
+    color:white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+.header .conterainer .left{
+    float: left;
+    width: 35%;
+}
+.header .conterainer .left img{
+   width: 120px; 
+}
+.menu{
+    list-style: none;
+    color: brown;
+}
+.clear{
+    clear: both;
+}
+.header2{
+    background-color: chocolate;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
